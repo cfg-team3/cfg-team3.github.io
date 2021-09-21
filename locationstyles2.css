@@ -1,0 +1,42 @@
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+body {
+    background-color: #E5D8BF ;
+}
+
+
+
+h1 {
+    color: peru;
+    
+}
+.TitlePosition {
+    
+    position:relative;
+    left: 590px;
+}
+
+.linkedin {
+    position:relative; 
+    left: 7cm;
+    
+}
+
+.twitter {
+
+    position:relative;
+    left: 15cm;
+
+}
+
+.facebook {
+    position:relative;
+    left: 16cm;
+}
+
+#button {
+    position: relative;
+    left: 70px;
+    
+}
+
