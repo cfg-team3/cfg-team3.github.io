@@ -41,8 +41,8 @@
       <!-- LOGO WITH TEXT-->
       <div class="container-fluid">
         <a class="navbar-brand">
-          <img src="./uk_logo.jpg" alt="" width="60" height="40" class="d-inline-block align-text-top">
-          Explore in the UK
+          <img src="./uk_logo.jpg" alt="" width="60" height="35" class="d-inline-block align-text-top">
+          <!--br--> &nbsp; Explore in the UK
         </a>
         </a>
       </div>
@@ -56,10 +56,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./homepage.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">About</a>
+              <a class="nav-link" href="#">About</a>
             </li>          
             <li class="nav-item">
               <a class="nav-link" href="./map_webpage.html">Map</a>
@@ -70,8 +70,8 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="./location1.html">London</a></li>
-                <li><a class="dropdown-item" href="#">York</a></li>
-                <li><a class="dropdown-item" href="#">Edinburgh</a></li>
+                <li><a class="dropdown-item" href="./location2.html">York</a></li>
+                <li><a class="dropdown-item" href="./location3.html">Edinburgh</a></li>
               </ul>
             </li>
           </ul>
@@ -80,16 +80,6 @@
           <!--form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
-          </form-->
-
-          <!--DOESN'T WORK - but the below code does!-->
-          <!--form action="./" method="get">
-            <div class="searchbar">
-              <input type="text" class="searchbar__input" name="search" placeholder="What are you looking for?">
-              <button type="submit" class="searchbar__button">
-                <i class="material-icons">Search</i>
-              </button>
-            </div>
           </form-->
 
           <!--(AMENDED) SEARCH BAR-->
@@ -111,14 +101,29 @@
 
     <main>
 
-    <!--INTRO BLURB-->
-    <section class="intro-block">
+    <!--INTRO BLURB WITH WEBSITE TITLE-->
+    <!--section class="intro-block">
       <div>
         <h1 class="title1">Explore in the UK</h1>
         <br>
         <p class="text1">Some background and introductory blurb about the website, etc.</p>
       </div>
-    </section>
+    </section-->
+
+    <!--INTRO BLURB WITH TRAVEL QUOTE-->
+    <section class="intro-block">
+      <div>
+        <br>
+        <h3 class="quoteText">'To travel is to live'</h3>
+        <p class="quoteName">~ Hans Christian Anderson ~</p>
+      </div>
+    </section-->
+
+    <section class="intro-block">
+      <div>
+        <p class="text1">Some background and introductory blurb about the website, etc.</p>
+      </div>
+    </section-->
     
     <!-- CAROUSEL -->
     <section class="py-5 text-center container">
@@ -170,31 +175,18 @@
       <div>
         <p class="text1">Some text about exploring via the interactive map.</p>
         <!--button class="button">View on map</button-->
-        <a href="./map_webpage.html" class="button">View on map</a>
-        <br>
-      </div>
-      <div>
-        <br>
+        <a href="./map_webpage.html" class="button">&nbsp; View on map &nbsp;</a>
         <br>
         <br>
       </div>
     </section>
-
-    <!--div class="form-contact">
-      <form action="/" class="decor">
-        <div class="form-left-decoration"></div>
-        <div class="form-right-decoration"></div>
-        <div class="circle"></div>
-        <div class="form-inner">
-          <h1>Contact us</h1>
-          <input type="text" placeholder="Full name">
-          <input type="email" placeholder="Email">
-          <textarea placeholder="Message..." rows="5"></textarea>
-          <button type="submit" href="/">Submit</button>
-        </div>
-      </form>
-    </div-->
-
+    
+    <section class="end-block">
+      <div>
+        <p class="text1">Feel free to get in touch if you have any questions or issues with the site,</p>
+        <p class="text1">or to make a travel recommendation!</p>
+      </div>
+    </section>
 
     <form action="/" class="decor">
       <div class="form-left-decoration"></div>
@@ -205,9 +197,22 @@
         <input type="text" placeholder="Full name">
         <input type="email" placeholder="Email">
         <textarea placeholder="Message..." rows="5"></textarea>
-        <button type="submit" href="/">Submit</button>
+      <div>
+        <!--button type="submit" href="/">Submit</button-->
+        <a href="/" class="form-button">&nbsp; &nbsp; &nbsp; Submit &nbsp; &nbsp; &nbsp;</a>
+      </div>
       </div>
     </form>
+
+    <section>
+      <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+    </section>
 
 </main>
 
@@ -233,8 +238,9 @@
     </div>
 </nav-->
 
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color:  #79b4b7;"-->
-  <!-- navbar content -->
+<!--nav class="navbar navbar-expand-lg navbar-light" style="background-color:  #79b4b7;"-->
+<nav class="navbar fixed-bottom navbar-expand-lg navbar-light" style="background-color:  #79b4b7;">
+<!-- navbar content -->
   <div class = "linkedin">
     <!--a href="" target="_blank"--><svg  class= "linkedin" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
       <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
