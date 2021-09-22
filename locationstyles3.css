@@ -1,0 +1,136 @@
+
+
+@media only screen and (min-width: 320px) {
+    h1{
+        color:peru;
+     
+    }
+    .TitlePosition {
+    
+        position:relative;
+        left: 140px;
+    }
+
+       
+    .linkedin {
+        position:relative; 
+       left: 40px;
+        color: white;
+        
+    }
+    
+    .twitter {
+    
+        position:relative;
+       right: 60px;
+        
+        color:white;
+    
+    }
+    
+    .facebook {
+      position:relative;
+      right: 190px;
+        color:white;
+    }
+}
+/* TABLET VERSION */
+@media only screen and (min-width: 768px) {
+    h1 {
+        color:peru;
+    }
+    .TitlePosition {
+    
+        position:relative;
+        left: 320px;
+    }
+    #NavBarTitle {
+        position:fixed;
+        right: 300px;
+    }
+    
+    
+    
+    
+    .linkedin {
+        position:relative; 
+      
+    left: 10px;
+        color: white;
+        
+    }
+    
+    .twitter {
+    
+        position:relative;
+        right: 200px;
+            color:white;
+    
+    }
+    
+    .facebook {
+      position:relative;
+      right: 400px;
+        color:white;
+    }
+
+}
+/* DESKTOP VERSION */
+@media only screen and (min-width: 980px) {
+    h1 {
+        color:peru;
+       
+    } 
+    .TitlePosition {
+    
+        position:relative;
+        left: 560px;
+    }
+
+    #NavBarTitle {
+        position:relative;
+        left: 360px;
+    }
+    
+    
+    
+    .linkedin {
+        position:relative; 
+        left: 7cm;
+        color:white;
+        
+    }
+    
+    .twitter {
+    
+        position:relative;
+        left: 15cm;
+        color:white;
+    
+    }
+    
+    .facebook {
+        position:relative;
+        left: 16cm;
+        color:white;
+    }
+
+}
+
+
+
+body {
+    background-color: #E5D8BF ;
+}
+
+.NavBarTitle {
+    position: fixed;
+    left: 90px;
+}
+
+#button {
+    position: relative;
+    left: 70px;
+    
+}
+

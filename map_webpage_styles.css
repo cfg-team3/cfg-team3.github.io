@@ -1,0 +1,49 @@
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+body {
+    background-color: #E5D8BF;
+}
+
+path:hover{
+    fill: #bd574e;
+}
+
+
+svg {
+    left: 7cm;
+}
+
+h1 {
+    color: peru;
+    
+}
+.TitlePosition {
+    
+    text-align: left;
+    margin-left: 50px;
+    
+}
+
+.linkedin {
+    position:relative; 
+    left: 7cm;
+    
+}
+
+.twitter {
+
+    position:relative;
+    left: 15cm;
+
+}
+
+.facebook {
+    position:relative;
+    left: 16cm;
+}
+
+#button {
+    position: relative;
+    left: 70px;
+    
+}
